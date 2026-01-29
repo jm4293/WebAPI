@@ -1,10 +1,9 @@
 const express = require("express");
-const app = express();
-
 const cors = require("cors");
-app.use(cors());
 
+const app = express();
 const PORT = process.env.PORT || 3000;
+app.use(cors());
 
 app.get("/stream/:count", (req, res) => {
   const count = parseInt(req.params.count, 10) || 10;

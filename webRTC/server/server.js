@@ -1,9 +1,12 @@
 const WebSocket = require("ws");
+
 const port = process.env.PORT || 8080;
 const wss = new WebSocket.Server({ port });
 const clients = new Map();
 
-console.log(`WebSocket 시그널링 서버가 ws://localhost:${port}에서 실행 중입니다`);
+console.log(
+  `WebSocket 시그널링 서버가 ws://localhost:${port}에서 실행 중입니다`,
+);
 
 function broadcast(message, senderId) {
   const messageStr = JSON.stringify(message);
