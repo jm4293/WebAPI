@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web-worker</title>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 4rem;
+      "
+    >
+      <div id="prime"></div>
+      <div id="canvas"></div>
+      <div id="arrayBuffer"></div>
+    </div>
+
+    <script type="module" src="/src/prime.js"></script>
+    <script type="module" src="/src/canvas.js"></script>
+    <script type="module" src="/src/arrayBuffer.js"></script>
+  </body>
+</html>
