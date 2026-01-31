@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+#app {
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #4a6cf7;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #3a5ce0;
+}
+
+.color-display {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  margin: 16px auto;
+}
+
+.color-value {
+  font-size: 18px;
+  font-weight: bold;
+}
