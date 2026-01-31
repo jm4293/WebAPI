@@ -1,0 +1,87 @@
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+#app {
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* --- 입력 영역 --- */
+.input-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 4px;
+  display: block;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-top: 4px;
+  cursor: pointer;
+  background-color: #4a6cf7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #3a5ce0;
+}
+
+/* --- 메시지 목록 --- */
+#messages {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.message {
+  padding: 6px 10px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  background-color: #e2e2e2;
+  max-width: 85%;
+}
+
+.message.self {
+  background-color: #c8d8ff;
+  margin-left: auto;
+  text-align: right;
+}
+
+.message .meta {
+  font-size: 11px;
+  color: #888;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.message p {
+  margin: 0;
+  word-break: break-word;
+}
