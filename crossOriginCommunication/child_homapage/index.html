@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: #f0f8ff;
+        padding: 15px;
+      }
+      #receivedMessage {
+        margin-top: 15px;
+        font-weight: bold;
+        color: green;
+      }
+      button {
+        padding: 8px 15px;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>자식 페이지 (localhost:8080)</h2>
+    <div id="receivedMessage">메시지 기다리는 중 ...</div>
+    <button id="sendResponseButton">부모 페이지로 메시지 전송</button>
+    <script>
+      const receivedMessage = document.getElementById("receivedMessage");
+      const sendResponseButton = document.getElementById("sendResponseButton");
+
+      // 부모로부터 메시지 수신
+      window.addEventListener("message", (event) => {
+        if (event.origin !== "http://localhost:5173") {
+          return;
+        }
+
+        const receivedMessageData = event.data;
+        receivedMessage.textContent = `부모로부터 받은 메시지: ${receivedMessageData.text} at ${receivedMessageData.timestamp}`;
+      });
+
+      // 부모로 메시지 전송
+      sendResponseButton.onclick = () => {
+        if (window.parent) {
+          const message = {
+            text: "안녕! 부모님, 자식이 보낸 메시지야.",
+            timestamp: new Date().toISOString(),
+          };
+
+          window.parent.postMessage(message, "http://localhost:5173");
+        } else {
+          console.error("부모 창이 없습니다.");
+        }
+      };
+    </script>
+  </body>
+</html>
