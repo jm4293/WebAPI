@@ -92,3 +92,9 @@ channelMessaging/
 4. 메인 페이지에서 `port1.postMessage()`로 메시지를 전송하면, 워커가 수신합니다.
 5. 워커는 수신된 메시지를 대문자로 변환하여 `port.postMessage()`로 응답합니다.
 6. 메인 페이지의 `port1.onmessage`에서 변환된 메시지를 수신합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Channel Messaging](https://www.youtube.com/watch?v=ZJR7TWsrvvA&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=28)

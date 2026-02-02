@@ -50,3 +50,9 @@ Screen Capture API의 핵심 로직을 포함하는 파일입니다. 주요 구�
 7. 사용자가 **버튼을 다시 클릭**하거나 브라우저의 "공유 중지"를 클릭하면 `stopCapture()`가 호출됩니다.
 8. 모든 트랙이 정지되고 `video.srcObject`가 `null`로 초기화되어 캡처가 종료됩니다.
 9. 사용자가 권한 다이얼로그에서 거부하면 `NotAllowedError`가 발생하고, 메시지 영역에 "권한 거부" 메시지가 표시됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Screen Capture](https://www.youtube.com/watch?v=6xXooNxWoAs&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=4)

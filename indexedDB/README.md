@@ -43,3 +43,9 @@ IndexedDB와의 연결 및 모든 데이터 작업 로직을 담당합니다. �
 6. 검색어를 입력한 후 **정확 일치 검색** 버튼을 클릭하면, `index("name").getAll()`을 사용하여 이름이 정확히 일치하는 사용자만 검색 결과로 표시됩니다.
 7. 검색어를 입력한 후 **Like 검색** 버튼을 클릭하면, `openCursor()`로 전체를 순회하며 `name.includes()`로 부분 일치하는 사용자를 검색 결과로 표시합니다.
 8. **검색 결과 삭제** 버튼을 클릭하면, `openCursor()`로 순회하며 검색어가 포함된 사용자를 `cursor.delete()`로 DB에서 삭제합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | IndexedDB](https://www.youtube.com/watch?v=hbbse3wfIxY&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=33)

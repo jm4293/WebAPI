@@ -50,3 +50,9 @@ Prioritized Task Scheduling API의 핵심 로직을 포함하는 파일입니다
 6. 태스크가 완료되면 `.then()`을 통해 결과가 console에 출력됩니다.
 7. 사용자가 **테스크 취소 버튼**을 클릭하면 `controller.abort()`가 호출되어 태스크가 취소됩니다.
 8. 태스크가 취소된 경우 `.catch()`를 통해 취소 오류가 처리되고 console에 출력됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Prioritized Task Scheduling](https://www.youtube.com/watch?v=T2qQfK50IZM&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=42)

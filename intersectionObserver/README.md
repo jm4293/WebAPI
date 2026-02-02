@@ -44,3 +44,9 @@ Intersection Observer를 생성하고, 이를 활용한 이미지 지연 로딩 
 6. 이미지 로드에 성공하면 해당 div의 `backgroundImage`에 이미지를 적용하고 `"loaded"` 클래스를 추가합니다.
 7. 이미지 로드에 실패하면 해당 div에 "이미지 로드 실패" 텍스트와 `"error"` 클래스를 표시합니다.
 8. 로드 처리가 완료되면 `observer.unobserve()`를 호출하여 해당 요소에 대한 관찰을 종료하고, 불필요한 콜백 실행을 방지합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Intersection Observer](https://www.youtube.com/watch?v=MSNz9sNQd1I&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=27)

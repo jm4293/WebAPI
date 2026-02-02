@@ -55,3 +55,9 @@ Express.js를 사용한 SSE 서버입니다. PORT 3000에서 실행됩니다.
 5. 서버는 3초 간격으로 커스텀 이벤트 `"update"`를 전송하며, 클라이언트의 `"update"` 이벤트 리스너가 수신하여 커스텀 이벤트 리스트에 표시합니다.
 6. 연결 중 오류가 발생하면 `onerror`가 발생하여 빨간색으로 상태를 표시하고, `EventSource`가 자동으로 재연결을 시도합니다.
 7. 클라이언트가 페이지를 닫거나 연결을 종료하면, 서버 측에서 `req.on("close")`가 발생하여 두 interval을 정리합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Server Sent Events](https://www.youtube.com/watch?v=li-TdsQInzI&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=1)

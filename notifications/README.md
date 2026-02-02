@@ -46,3 +46,9 @@ Notification API의 핵심 로직을 포함하는 파일입니다. 주요 구성
 6. 권한이 `granted`이면 운영체제 수준의 알림이 표시됩니다.
 7. 알림을 클릭하면 GitHub 페이지(`https://github.com/jm4293/WebAPI`)가 새 탭으로 열립니다.
 8. 권한이 `granted`가 아니면 `alert()`를 통해 권한 허용을 안내합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Notifications](https://www.youtube.com/watch?v=zQy8mYl7MOo&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=38)

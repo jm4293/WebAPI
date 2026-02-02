@@ -47,3 +47,9 @@ video 영역과 버튼 등 전체 페이지의 레이아웃과 시각적 스타�
 6. **녹화 중지** 버튼을 클릭하면 `mediaRecorder.stop()`이 호출되어 녹화가 종료됩니다.
 7. `onstop` 이벤트에서 축적된 청크들로 `Blob`을 생성하고 `URL.createObjectURL()`로 다운로드 URL을 준비합니다.
 8. **다운로드** 버튼을 클릭하면 숨겨진 `<a>` 태그를 활용하여 녹화된 영상 파일이 다운로드됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Media Recorder](https://www.youtube.com/watch?v=1pcPPnPNxgI&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=5)

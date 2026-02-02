@@ -43,3 +43,9 @@ Fullscreen API를 사용하여 전체 화면 토글 기능을 구현하는 핵�
 5. `fullscreenchange` 이벤트가 발생하여 버튼 텍스트가 `"전체 화면 종료"`로 변경됩니다.
 6. 사용자가 다시 버튼을 클릭하면 `document.exitFullscreen()`이 호출되어 전체 화면이 종료됩니다.
 7. `fullscreenchange` 이벤트가 다시 발생하여 버튼 텍스트가 `"전체 화면 토글"`로 복원됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Full Screen](https://www.youtube.com/watch?v=HM-n_NO6VuM&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=12)

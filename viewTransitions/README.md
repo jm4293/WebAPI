@@ -45,3 +45,9 @@ View Transitions API를 활용한 콘텐츠 전환 로직을 담당합니다.
 7. `viewTrans.finished` 프로미스가 이행되면 버튼이 다시 활성화됩니다.
 8. **지원되지 않는 경우**: `innerHTML`을 직접 교체하여 効과 없이 콘텐츠가 바뀝니다.
 9. 버튼을 계속 클릭하면 콘텐츠가 순환합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | View Transitions](https://www.youtube.com/watch?v=QNRV545L9Yk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=29)

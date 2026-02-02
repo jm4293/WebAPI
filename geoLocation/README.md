@@ -63,3 +63,9 @@ Geolocation API를 사용하여 위치 정보 가져오기, 연속 추적, 감�
 2. `watchPosition()`이 호출되어 연속 위치 추적이 시작되며, `watchId`가 저장됩니다.
 3. 위치가 변경될 때마다 콜백이 실행되어 `displayLocation()`으로 위치 정보가 갱신됩니다.
 4. 사용자가 "위치 감시 종료" 버튼을 클릭하면 `clearWatch(watchId)`가 호출되어 추적이 종료됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Geolocation](https://www.youtube.com/watch?v=2G1WcRjpp7c&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=32)

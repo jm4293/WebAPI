@@ -44,3 +44,9 @@ ResizeObserver API의 핵심 로직을 포함하는 파일입니다. 주요 구�
 7. `entry.contentBoxSize`와 `entry.borderBoxSize`도 console에 출력됩니다.
 8. 페이지 로드 후 **5초가 경과하면** `resizeObserver.unobserve()`가 호출되어 관찰이 종료됩니다.
 9. 관찰이 종료된 후 버튼을 클릭해도 콜백이 더 이상 실행되지 않습니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Resize Observer](https://www.youtube.com/watch?v=uQ9D7DAUaeY&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=17)

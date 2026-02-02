@@ -49,3 +49,9 @@ dragAndDrop/
    - 파일이면 `displayFile()`를 호출하여 파일 정보를 목록에 추가합니다.
    - 폴더이면 내부 항목을 순회하며 재귀적으로 탐색을 반복합니다.
 7. `displayFile()`에서 파일 이름, 크기, 타입을 목록에 표시하고, `text/*` 타입이면 `FileReader`로 내용을 읽어 콘솔에 출력합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Drag And Drop Multi Files](https://www.youtube.com/watch?v=fLR3X2iqhB8&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=11)

@@ -104,3 +104,9 @@ OffscreenCanvas를 이용한 캔버스 드로잤의 메인 스크립트입니다
 3. 픽셀 데이터의 buffer가 transferable 객체로 워커에 전송됩니다.
 4. 워커에서 백그라운드로 각 픽셀의 R, G, B 평균값을 계산하여 흑백 변환을 수행합니다.
 5. 변환된 buffer가 메인 스레드에 반환되어 흑백 이미지가 캔버스에 표시됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Web Worker](https://www.youtube.com/watch?v=PmKcFypgepk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=31)

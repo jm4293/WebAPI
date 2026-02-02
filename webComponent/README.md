@@ -54,3 +54,9 @@ webComponent/
 6. `id="a"`인 like-button에 등록된 이벤트 리스너가 커스텀 이벤트를 수신하여 카운트 변경을 `console`에 출력합니다.
 7. `attributeChangedCallback()`이 호출되어 Shadow DOM 내의 `span` 텍스트가 새로운 카운트 값으로 업데이트됩니다.
 8. 컴포넌트가 DOM에서 제거될 때, `disconnectedCallback()`이 실행되어 이벤트 리스너를 정리합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Web Component](https://www.youtube.com/watch?v=Uv-Xwe1DHhI&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=20)

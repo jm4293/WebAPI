@@ -44,3 +44,9 @@ Pointer Events를 사용하여 캔버스 위의 그림 그리기 기능을 구�
 5. 각 선분은 `moveTo` → `lineTo` → `stroke()` 순서로 이전 좌표와 현재 좌표를 잇는 짧은 선분으로 렌더링됩니다.
 6. 마우스 버튼을 놓으면 `pointerup`이 발생하여 그림 그리기를 종료합니다.
 7. 포인터가 캔버스 밖으로 나가면 `pointerout`으로 그림이 중단되고, 다시 캔버스 위로 돌아오면 `pointerenter`에서 버튼 눌림 상태를 확인하여 연속 그림을 복원합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Ink API](https://www.youtube.com/watch?v=vpuM7xi72EE&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=2)

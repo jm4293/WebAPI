@@ -59,3 +59,9 @@ File System Access API의 세 가지 기능을 구현하는 핵심 파일입니�
 2. `showDirectoryPicker()`로 폴더 선택 다이얼로그가 표시됩니다.
 3. 사용자가 폴더를 선택하면 디렉토리 핸들이 반환됩니다.
 4. `directoryHandle.entries()`로 폴더 내부의 파일과 하위 폴더를 순회하여 목록으로 표시됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | File System Access](https://www.youtube.com/watch?v=YvxczUQ_Jkk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=13)

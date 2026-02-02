@@ -64,3 +64,9 @@ WebSocket 서버로, gzip 압축된 메시지를 처리하고 broadcast합니다
 8. 서버는 수신된 압축 메시지를 `zlib.unzip()`으로 해제하여 console에 로깅합니다.
 9. 서버는 압축된 원본 메시지를 그대로 모든 연결된 클라이언트에게 broadcast합니다.
 10. 각 클라이언트는 수신된 Blob을 `DecompressionStream("gzip")`으로 압축 해제하여 메시지를 복원하고 UI에 표시합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | WebSocket](https://www.youtube.com/watch?v=ckaAhENDLLQ&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=34)

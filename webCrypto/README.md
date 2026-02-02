@@ -43,3 +43,9 @@ Web Crypto API를 활용한 AES-256-GCM 암호화 및 복호화 로직을 포함
 6. Base64로 변환된 IV를 `base64ToArrayBuffer` 함수로 다시 `ArrayBuffer`로 복원합니다.
 7. `crypto.subtle.decrypt()`를 호출하여 암호화된 데이터를 복호화합니다.
 8. `TextDecoder`를 사용하여 복호화된 결과를 원래 텍스트로 변환하여 console에 출력하며, 복호화가 올바르게 동작하는지 검증합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Web Crypto](https://www.youtube.com/watch?v=mWD5QrYYj6E&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=15)

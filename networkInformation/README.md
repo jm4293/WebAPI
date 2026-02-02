@@ -42,3 +42,9 @@ Network Information API를 활용하여 네트워크 정보를 조회하고 표�
 4. 읽은 값을 각각의 표시 영역에 렌더링합니다. `downlink` 값은 `toFixed(2)`로 소수점 2자리 표시됩니다.
 5. `navigator.connection.onchange` 이벤트가 등록되어, 네트워크 연결 상태가 변경되면 (예: Wi-Fi에서 모바일 데이터로 전환) `updateNetworkInfo()`가 다시 호출됩니다.
 6. 재호출 시 동일한 과정으로 최신 네트워크 정보를 조회하여 UI를 실시간 업데이트합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Network Information](https://www.youtube.com/watch?v=V_jvnq1qeZk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=22)

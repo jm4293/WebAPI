@@ -61,3 +61,9 @@ Broadcast Channel API를 사용하여 다중 탭 간 채팅 기능을 구현합�
 6. `channel.postMessage()`로 메시지가 동일한 채널의 다른 탭에 방송됩니다.
 7. 다른 탭에서 `channel.onmessage` 핸들러가 실행되어 메시지를 수신합니다.
 8. 수신된 메시지에 대해 `renderMessage()`가 호출되어 타인 메시지로 스타일이 적용되고 표시됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Broadcast Channel](https://www.youtube.com/watch?v=e-XThQ7uEIk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=10)

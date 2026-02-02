@@ -55,3 +55,9 @@ Device Memory API와 Performance Memory API를 활용하여 장치의 메모리 
 4. `performance.memory` 객체에서 `usedJSHeapSize`, `totalJSHeapSize`, `jsHeapSizeLimit` 값을 읽습니다.
 5. `bytesToMB()` 유틸리티 함수를 사용하여 바이트 값을 MB 단위로 변환합니다.
 6. 변환된 JS 힙 메모리 정보를 `console`에 출력합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Device Memory](https://www.youtube.com/watch?v=bsoiCUFkAMQ&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=21)

@@ -44,3 +44,9 @@ EyeDropper API를 사용하여 색상 선택 기능을 구현하는 핵심 파�
 7. 사용자가 색상 선택을 취소하면 `catch` 블록에서 "선택 취소됨" 메시지가 표시됩니다.
 
 > **참고:** Chrome 95 이상에서만 지원됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Eye Dropper](https://www.youtube.com/watch?v=ol1vZ0xZynY&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=8)

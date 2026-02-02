@@ -58,3 +58,9 @@ Web Animations API를 사용하여 두 종류의 애니메이션을 구현합니
 7. **역재생** 버튼 클릭 시 `animation.reverse()`로 재생 방향이 반전됩니다.
 8. **취소** 버튼 클릭 시 `animation.cancel()`로 애니메이션이 취소되고 `oncancel` 핸들러가 실행됩니다.
 9. 애니메이션이 정상적으로 완료되면 `onfinish` 핸들러가 실행됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Web Animations](https://www.youtube.com/watch?v=Rhu_-zPQ7F0&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=40)

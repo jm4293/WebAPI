@@ -44,3 +44,9 @@ OPFS API를 활용한 파일 관리 로직을 포함합니다.
 6. 삭제 버튼을 클릭하면 `root.removeEntry()`로 지정된 파일을 삭제합니다.
 7. 저장 공간 확인 버튼을 클릭하면 `navigator.storage.estimate()`로 현재 사용량과 할당 용량을 GB 단위로 표시합니다.
 8. 모든 작업 결과는 페이지 내 출력 영역에 실시간으로 표시되며, 오류 발생 시 빨간색으로 표시됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | OPFS](https://www.youtube.com/watch?v=vkrFKV3dZZ4&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=18)

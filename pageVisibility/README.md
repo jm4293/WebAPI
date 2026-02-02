@@ -46,3 +46,9 @@ Page Visibility API와 타이머 로직을 포함하는 핵심 파일입니다. 
 6. 상태 영역의 색상이 **빨간색**으로 변경되고, `stopTimer()`가 호출되어 타이머가 정지됩니다.
 7. 사용자가 다시 해당 탭으로 돌아오면 `"visibilitychange"` 이벤트가 다시 발생합니다.
 8. `updatePageStatus()`가 호출되어 상태 영역이 **초록색**으로 복원되고, `startTimer()`가 호출되어 타이머가 다시 시작됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Page Visibility](https://www.youtube.com/watch?v=liFhKHmIwq0&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=9)

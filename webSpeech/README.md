@@ -42,3 +42,9 @@ Web Speech API의 `SpeechSynthesis`를 활용한 텍스트-투-스피치 로직�
 8. 음성 출력 시작 시 상태 영역에 "음성 출력 중..." 메시지가 표시됩니다.
 9. 음성 출력이 완료되면 `onend` 이벤트가 발생하여 완료 메시지가 표시됩니다.
 10. 정지 버튼을 클릭하면 `synth.cancel()`로 진행 중인 음성 출력을 즉시 중단합니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Web Speech](https://www.youtube.com/watch?v=7oLwmY01DGA&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=6)

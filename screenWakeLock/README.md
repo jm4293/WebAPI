@@ -43,3 +43,9 @@ Wake Lock 기능의 핵심 로직을 담당합니다.
 6. 사용자가 다시 버튼을 클릭하면 `wakeLock.release()`를 호출하여 Wake Lock을 해제합니다.
 7. 탭이 백그라운드로 이동하면 Wake Lock이 자동으로 해제됩니다.
 8. 탭이 다시 포그라운드로 복귀하면 (`visibilitychange` 이벤트), Wake Lock이 자동으로 재요청됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Screen Wake Lock](https://www.youtube.com/watch?v=owPWcYJAfyU&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=23)

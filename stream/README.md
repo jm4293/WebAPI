@@ -63,3 +63,9 @@ Express.js를 사용한 스트리밍 서버입니다. PORT 3000에서 실행됩�
    - `showSaveFilePicker()`가 표시되어 사용자가 저장할 파일을 선택합니다.
    - 서버에서 전송되는 스트리밍 응답을 `TransformStream`을 거쳐 실시간으로 파일에 저장합니다.
    - 저장 진행 상황(수신된 바이트 수)이 `console`에 실시간으로 출력됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Stream](https://www.youtube.com/watch?v=Iza59E4dI80&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=37)

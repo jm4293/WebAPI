@@ -63,3 +63,9 @@ Web Audio API를 사용하여 소프트웨어 피아노의 핵심 로직을 구�
 7. `exponentialRampToValueAtTime(0.01, ...)`로 gain이 급격히 감소하여 자연스러운 페이드아웃 효과가 적용됩니다.
 8. 노드가 `Oscillator → GainNode → destination`으로 연결된 후 `start()`로 음표가 재생됩니다.
 9. 페이드아웃이 완료되는 시점에 `stop()`이 호출되어 Oscillator가 종료됩니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | Web Audio](https://www.youtube.com/watch?v=PBSnLhpradE&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=36)

@@ -67,3 +67,9 @@ WebSocket 기반 시그널링 서버입니다. RTCPeerConnection 세팅에 필�
 8. 양측이 ICE candidate를 교환하여 WebRTC 연결을 완성합니다.
 9. DataChannel 연결이 완료되면, 메시지는 WebRTC DataChannel을 통해 피어 간에 직접 전송됩니다.
 10. 피어가 연결을 종료하면 서버가 "peer-disconnected"를 broadcast하여 다른 클라이언트에게 알립니다.
+
+---
+
+## 출처
+
+- [YouTube - GIS DEVELOPER | WebRTC](https://www.youtube.com/watch?v=mojydI8Enqw&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=25)
