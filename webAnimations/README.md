@@ -1,5 +1,12 @@
 # Web Animations API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Web Animations API 강의 바로가기](https://www.youtube.com/watch?v=Rhu_-zPQ7F0&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=40)
+
+---
+
 ## 개요
 Web Animations API는 JavaScript를 통해 DOM 요소에 키프레임 기반 애니메이션을 적용할 수 있는 API입니다. CSS 애니메이션과 동일한 수준의 성능을 제공하면서, 프로그램적으로 애니메이션을 생성·제어(시작, 일시중지, 재개, 취소, 역재생)할 수 있습니다. 또한 `.finished` 프로미스를 활용한 애니메이션 체이닝도 지원합니다.
 
@@ -58,9 +65,3 @@ Web Animations API를 사용하여 두 종류의 애니메이션을 구현합니
 7. **역재생** 버튼 클릭 시 `animation.reverse()`로 재생 방향이 반전됩니다.
 8. **취소** 버튼 클릭 시 `animation.cancel()`로 애니메이션이 취소되고 `oncancel` 핸들러가 실행됩니다.
 9. 애니메이션이 정상적으로 완료되면 `onfinish` 핸들러가 실행됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Web Animations](https://www.youtube.com/watch?v=Rhu_-zPQ7F0&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=40)

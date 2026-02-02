@@ -1,5 +1,12 @@
 # Drag and Drop API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Drag and Drop API 강의 바로가기](https://www.youtube.com/watch?v=fLR3X2iqhB8&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=11)
+
+---
+
 ## 개요
 Drag and Drop API는 사용자가 파일이나 폴더를 브라우저 창으로 끌어 떨어뜨리는 방식으로 파일을 업로드하고 탐색할 수 있는 기능을 제공합니다. `dataTransfer.items`와 `getAsFileSystemHandle()`을 활용하여 폴더 구조를 재귀적으로 탐색하여, 단순한 파일 드롭뿐만 아니라 폴더 내부의 파일까지 읽을 수 있습니다.
 
@@ -49,9 +56,3 @@ dragAndDrop/
    - 파일이면 `displayFile()`를 호출하여 파일 정보를 목록에 추가합니다.
    - 폴더이면 내부 항목을 순회하며 재귀적으로 탐색을 반복합니다.
 7. `displayFile()`에서 파일 이름, 크기, 타입을 목록에 표시하고, `text/*` 타입이면 `FileReader`로 내용을 읽어 콘솔에 출력합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Drag And Drop Multi Files](https://www.youtube.com/watch?v=fLR3X2iqhB8&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=11)

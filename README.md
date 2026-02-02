@@ -1,4 +1,15 @@
-# Web API
+# Web API 실습 프로젝트
+
+이 저장소는 GIS Developer 채널의 Web API 강의 시리즈를 공부하며 작성한 실습 코드를 담고 있습니다.
+
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 시리즈:** [Web API 실습 강의 바로가기](https://www.youtube.com/playlist?list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_)
+
+---
+
+## Web API란?
 
 Web API는 웹 브라우저에서 제공하는 다양한 기능을 JavaScript로 제어할 수 있게 해주는 인터페이스입니다.
 
@@ -58,9 +69,3 @@ Web API는 웹 브라우저에서 제공하는 다양한 기능을 JavaScript로
 - [MDN Web Docs](https://developer.mozilla.org/ko/docs/Web/API)
 - [W3C Web APIs](https://www.w3.org/TR/)
 - [Can I Use](https://caniuse.com/) — 브라우저 호환성 확인
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Web API](https://www.youtube.com/playlist?list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_)

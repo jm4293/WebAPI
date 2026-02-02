@@ -1,5 +1,12 @@
 # Compression Streams API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Compression Streams API 강의 바로가기](https://www.youtube.com/watch?v=PLVFoOWAjKc&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=3)
+
+---
+
 ## 개요
 Compression Streams API는 데이터를 압축하거나 압축 해제할 수 있는 스트림 기반 API입니다. 이 프로젝트에서는 사용자가 선택한 파일을 gzip 형식으로 압축한 후 다운로드할 수 있는 기능을 구현합니다. `CompressionStream`을 사용하여 파일 스트림을 압축하고, Blob으로 변환하여 다운로드 링크를 생성합니다.
 
@@ -72,9 +79,3 @@ Compression Streams API를 사용하여 파일 압축 및 다운로드 기능을
 13. 다운로드 링크를 표시하고, 상태 메시지를 "압축 완료!"로 업데이트합니다.
 14. 압축 버튼을 다시 활성화합니다.
 15. 사용자가 다운로드 링크를 클릭하면 압축된 파일이 다운로드됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Compression Streams API](https://www.youtube.com/watch?v=PLVFoOWAjKc&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=3)

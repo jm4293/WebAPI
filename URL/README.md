@@ -1,5 +1,12 @@
 # URL API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [URL API 강의 바로가기](https://www.youtube.com/watch?v=wko0zLu_HgE&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=35)
+
+---
+
 ## 개요
 URL API는 URL을 파싱하고 조작할 수 있는 표준 JavaScript API입니다. 이 프로젝트에서는 URL 객체를 사용하여 URL의 다양한 구성 요소(프로토콜, 호스트, 포트, 경로, 쿼리 파라미터 등)를 읽고 수정하는 방법을 보여줍니다. 또한 `URLSearchParams`를 사용하여 쿼리 파라미터를 관리하고, `URL.createObjectURL()`로 Blob URL을 생성하여 파일 다운로드 기능을 구현합니다.
 
@@ -100,9 +107,3 @@ URL API를 사용하여 URL 파싱, 조작, Blob URL 생성 및 파일 다운로
 22. `link.click()`으로 다운로드를 트리거합니다.
 23. `<a>` 태그를 DOM에서 제거하고 `URL.revokeObjectURL(url)`로 Blob URL을 해제합니다.
 24. 브라우저가 파일 다운로드를 시작합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | URL API](https://www.youtube.com/watch?v=wko0zLu_HgE&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=35)

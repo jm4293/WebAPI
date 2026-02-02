@@ -1,5 +1,12 @@
 # Prioritized Task Scheduling API (scheduler.postTask)
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Prioritized Task Scheduling API (scheduler.postTask) 강의 바로가기](https://www.youtube.com/watch?v=T2qQfK50IZM&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=42)
+
+---
+
 ## 개요
 Prioritized Task Scheduling API는 웹 앱에서 작업(task)을 우선순위를 지정하여 스케줄링할 수 있는 기능을 제공합니다. `scheduler.postTask()`를 사용하여 작업을 등록하고, `TaskController`를 활용하여 작업의 우선순위를 동적으로 변경하거나 작업을 취소할 수 있습니다. 이를 통해 브라우저의 메인 스레드 리소스를 효율적으로 관리할 수 있습니다.
 
@@ -50,9 +57,3 @@ Prioritized Task Scheduling API의 핵심 로직을 포함하는 파일입니다
 6. 태스크가 완료되면 `.then()`을 통해 결과가 console에 출력됩니다.
 7. 사용자가 **테스크 취소 버튼**을 클릭하면 `controller.abort()`가 호출되어 태스크가 취소됩니다.
 8. 태스크가 취소된 경우 `.catch()`를 통해 취소 오류가 처리되고 console에 출력됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Prioritized Task Scheduling](https://www.youtube.com/watch?v=T2qQfK50IZM&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=42)

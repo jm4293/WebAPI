@@ -1,5 +1,12 @@
 # Screen Wake Lock API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Screen Wake Lock API 강의 바로가기](https://www.youtube.com/watch?v=owPWcYJAfyU&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=23)
+
+---
+
 ## 개요
 Screen Wake Lock API는 장치의 화면이 자동으로 꺼지지 않도록 유지하는 기능을 제공합니다. 영상 재생, 레시피 표시 등 사용자가 화면을 계속 보아야 하는 상황에서 유용합니다. `navigator.wakeLock.request("screen")`을 호출하여 Wake Lock을 요청하고, `wakeLock.release()`로 해제할 수 있습니다.
 
@@ -43,9 +50,3 @@ Wake Lock 기능의 핵심 로직을 담당합니다.
 6. 사용자가 다시 버튼을 클릭하면 `wakeLock.release()`를 호출하여 Wake Lock을 해제합니다.
 7. 탭이 백그라운드로 이동하면 Wake Lock이 자동으로 해제됩니다.
 8. 탭이 다시 포그라운드로 복귀하면 (`visibilitychange` 이벤트), Wake Lock이 자동으로 재요청됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Screen Wake Lock](https://www.youtube.com/watch?v=owPWcYJAfyU&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=23)

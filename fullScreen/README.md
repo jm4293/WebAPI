@@ -1,5 +1,12 @@
 # Fullscreen API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Fullscreen API 강의 바로가기](https://www.youtube.com/watch?v=HM-n_NO6VuM&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=12)
+
+---
+
 ## 개요
 Fullscreen API는 웹 앱에서 특정 요소를 전체 화면으로 표시할 수 있는 기능을 제공합니다. 사용자가 버튼을 클릭하면 지정된 요소가 전체 화면으로 전환되고, 다시 클릭하면 복귀합니다. 이 프로젝트에서는 `<video>` 요소를 대상으로 전체 화면 토글 기능을 구현합니다.
 
@@ -43,9 +50,3 @@ Fullscreen API를 사용하여 전체 화면 토글 기능을 구현하는 핵�
 5. `fullscreenchange` 이벤트가 발생하여 버튼 텍스트가 `"전체 화면 종료"`로 변경됩니다.
 6. 사용자가 다시 버튼을 클릭하면 `document.exitFullscreen()`이 호출되어 전체 화면이 종료됩니다.
 7. `fullscreenchange` 이벤트가 다시 발생하여 버튼 텍스트가 `"전체 화면 토글"`로 복원됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Full Screen](https://www.youtube.com/watch?v=HM-n_NO6VuM&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=12)

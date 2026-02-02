@@ -1,5 +1,12 @@
 # Device Memory API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Device Memory API 강의 바로가기](https://www.youtube.com/watch?v=bsoiCUFkAMQ&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=21)
+
+---
+
 ## 개요
 Device Memory API는 사용자 장치의 예상 RAM 용량을 제공하는 API입니다. 이 정보를 활용하면 장치의 하드웨어 스펙에 따라 리소스 로딩 전략이나 앱의 복잡도를 조절할 수 있습니다. 이 프로젝트에서는 Device Memory API와 Performance Memory API를 함께 사용하여 장치의 RAM 용량과 JavaScript 힙 메모리 사용 정보를 표시합니다.
 
@@ -55,9 +62,3 @@ Device Memory API와 Performance Memory API를 활용하여 장치의 메모리 
 4. `performance.memory` 객체에서 `usedJSHeapSize`, `totalJSHeapSize`, `jsHeapSizeLimit` 값을 읽습니다.
 5. `bytesToMB()` 유틸리티 함수를 사용하여 바이트 값을 MB 단위로 변환합니다.
 6. 변환된 JS 힙 메모리 정보를 `console`에 출력합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Device Memory](https://www.youtube.com/watch?v=bsoiCUFkAMQ&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=21)

@@ -1,5 +1,12 @@
 # Channel Messaging API (MessageChannel)
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Channel Messaging API (MessageChannel) 강의 바로가기](https://www.youtube.com/watch?v=ZJR7TWsrvvA&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=28)
+
+---
+
 ## 개요
 Channel Messaging API는 `MessageChannel`과 `MessagePort`를 활용하여 두 컨텍스트 간에 독립적인 양방향 통신 채널을 생성할 수 있는 API입니다. `postMessage()`의 단순한 단일 방향 통신과 달리, 포트(port) 기반의 안정적인 양방향 통신이 가능합니다. 이 프로젝트에서는 세 가지 시나리오를 구현합니다: iframe과의 통신, 새 탭(팝업)과의 통신, Web Worker와의 통신입니다.
 
@@ -92,9 +99,3 @@ channelMessaging/
 4. 메인 페이지에서 `port1.postMessage()`로 메시지를 전송하면, 워커가 수신합니다.
 5. 워커는 수신된 메시지를 대문자로 변환하여 `port.postMessage()`로 응답합니다.
 6. 메인 페이지의 `port1.onmessage`에서 변환된 메시지를 수신합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Channel Messaging](https://www.youtube.com/watch?v=ZJR7TWsrvvA&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=28)

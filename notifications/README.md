@@ -1,5 +1,12 @@
 # Notification API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Notification API 강의 바로가기](https://www.youtube.com/watch?v=zQy8mYl7MOo&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=38)
+
+---
+
 ## 개요
 Notification API는 웹 페이지에서 운영체제 수준의 알림(desktop notification)을 표시할 수 있는 기능을 제공합니다. 브라우저 창 밖에서도 사용자에게 중요한 정보를 전달할 수 있으며, 알림 클릭 시 특정 페이지로 이동하는 기능도 지원합니다.
 
@@ -46,9 +53,3 @@ Notification API의 핵심 로직을 포함하는 파일입니다. 주요 구성
 6. 권한이 `granted`이면 운영체제 수준의 알림이 표시됩니다.
 7. 알림을 클릭하면 GitHub 페이지(`https://github.com/jm4293/WebAPI`)가 새 탭으로 열립니다.
 8. 권한이 `granted`가 아니면 `alert()`를 통해 권한 허용을 안내합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Notifications](https://www.youtube.com/watch?v=zQy8mYl7MOo&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=38)

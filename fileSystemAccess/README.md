@@ -1,5 +1,12 @@
 # File System Access API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [File System Access API 강의 바로가기](https://www.youtube.com/watch?v=YvxczUQ_Jkk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=13)
+
+---
+
 ## 개요
 File System Access API는 웹 앱에서 사용자의 로컬 파일 시스템과 직접 상호작용할 수 있는 기능을 제공합니다. 파일 열기, 파일 저장, 디렉토리 탐색 등의 작업을 사용자가 다이얼로그를 통해 직접 선택하는 방식으로 수행할 수 있습니다. 기존의 `<input type="file">`보다 더 강력하고 유연한 파일 시스템 접근 수단입니다.
 
@@ -59,9 +66,3 @@ File System Access API의 세 가지 기능을 구현하는 핵심 파일입니�
 2. `showDirectoryPicker()`로 폴더 선택 다이얼로그가 표시됩니다.
 3. 사용자가 폴더를 선택하면 디렉토리 핸들이 반환됩니다.
 4. `directoryHandle.entries()`로 폴더 내부의 파일과 하위 폴더를 순회하여 목록으로 표시됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | File System Access](https://www.youtube.com/watch?v=YvxczUQ_Jkk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=13)

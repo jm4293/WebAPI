@@ -1,5 +1,12 @@
 # Geolocation API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Geolocation API 강의 바로가기](https://www.youtube.com/watch?v=2G1WcRjpp7c&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=32)
+
+---
+
 ## 개요
 Geolocation API는 사용자의 현재 지리적 위치를 가져올 수 있는 기능을 제공합니다. 한 번만 위치를 가져오는 것은 물론, `watchPosition()`을 사용하여 연속적으로 위치를 추적하는 것도 가능합니다. 반환되는 좌표 정보에는 위도, 경도, 고도, 정확도 등의 상세 정보가 포함됩니다.
 
@@ -63,9 +70,3 @@ Geolocation API를 사용하여 위치 정보 가져오기, 연속 추적, 감�
 2. `watchPosition()`이 호출되어 연속 위치 추적이 시작되며, `watchId`가 저장됩니다.
 3. 위치가 변경될 때마다 콜백이 실행되어 `displayLocation()`으로 위치 정보가 갱신됩니다.
 4. 사용자가 "위치 감시 종료" 버튼을 클릭하면 `clearWatch(watchId)`가 호출되어 추적이 종료됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Geolocation](https://www.youtube.com/watch?v=2G1WcRjpp7c&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=32)

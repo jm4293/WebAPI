@@ -1,5 +1,12 @@
 # Web Components
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Web Components 강의 바로가기](https://www.youtube.com/watch?v=Uv-Xwe1DHhI&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=20)
+
+---
+
 ## 개요
 Web Components는 재사용 가능한 커스텀 HTML 엘리먼트를 정의할 수 있는 웹 표준 기술입니다. Shadow DOM을 활용하면 컴포넌트 내부의 HTML과 CSS가 외부로 노출되지 않아 스타일과 구조가 독립적으로 유지됩니다. 이 프로젝트는 `<like-button>` 커스텀 엘리먼트를 구현하여, 클릭 시 카운트가 증가하고 커스텀 이벤트를 발생시키는 기능을 보여드립니다.
 
@@ -54,9 +61,3 @@ webComponent/
 6. `id="a"`인 like-button에 등록된 이벤트 리스너가 커스텀 이벤트를 수신하여 카운트 변경을 `console`에 출력합니다.
 7. `attributeChangedCallback()`이 호출되어 Shadow DOM 내의 `span` 텍스트가 새로운 카운트 값으로 업데이트됩니다.
 8. 컴포넌트가 DOM에서 제거될 때, `disconnectedCallback()`이 실행되어 이벤트 리스너를 정리합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Web Component](https://www.youtube.com/watch?v=Uv-Xwe1DHhI&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=20)

@@ -1,5 +1,12 @@
 # Web Audio API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Web Audio API 강의 바로가기](https://www.youtube.com/watch?v=PBSnLhpradE&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=36)
+
+---
+
 ## 개요
 Web Audio API는 오디오를 생성·조절·재생하기 위한 강력한 JavaScript API입니다. 이 프로젝트에서는 Web Audio API를 활용하여 소프트웨어 피아노를 구현합니다. Oscillator를 사용하여 특정 주파수의 사인파를 생성하고, GainNode를 통해 볼륨을 제어하여 현실적인 피아노 음색을 표현합니다.
 
@@ -63,9 +70,3 @@ Web Audio API를 사용하여 소프트웨어 피아노의 핵심 로직을 구�
 7. `exponentialRampToValueAtTime(0.01, ...)`로 gain이 급격히 감소하여 자연스러운 페이드아웃 효과가 적용됩니다.
 8. 노드가 `Oscillator → GainNode → destination`으로 연결된 후 `start()`로 음표가 재생됩니다.
 9. 페이드아웃이 완료되는 시점에 `stop()`이 호출되어 Oscillator가 종료됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Web Audio](https://www.youtube.com/watch?v=PBSnLhpradE&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=36)

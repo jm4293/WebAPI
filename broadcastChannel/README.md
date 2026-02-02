@@ -1,5 +1,12 @@
 # Broadcast Channel API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Broadcast Channel API 강의 바로가기](https://www.youtube.com/watch?v=e-XThQ7uEIk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=10)
+
+---
+
 ## 개요
 Broadcast Channel API는 동일한 오리진(origin)에서 열린 여러 탭, iframe, 또는 워커 간에 메시지를 방송(broadcast)할 수 있는 API입니다. 이 프로젝트에서는 Broadcast Channel API를 활용하여 다중 탭 간의 실시간 채팅 기능을 구현합니다. 한 탭에서 전송한 메시지가 동일한 채널에 연결된 다른 모든 탭에 즉시 수신됩니다.
 
@@ -61,9 +68,3 @@ Broadcast Channel API를 사용하여 다중 탭 간 채팅 기능을 구현합�
 6. `channel.postMessage()`로 메시지가 동일한 채널의 다른 탭에 방송됩니다.
 7. 다른 탭에서 `channel.onmessage` 핸들러가 실행되어 메시지를 수신합니다.
 8. 수신된 메시지에 대해 `renderMessage()`가 호출되어 타인 메시지로 스타일이 적용되고 표시됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Broadcast Channel](https://www.youtube.com/watch?v=e-XThQ7uEIk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=10)

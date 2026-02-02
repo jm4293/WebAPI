@@ -1,5 +1,12 @@
 # Web Crypto API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Web Crypto API 강의 바로가기](https://www.youtube.com/watch?v=mWD5QrYYj6E&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=15)
+
+---
+
 ## 개요
 Web Crypto API는 웹 페이지에서 암호화와 복호화 작업을 수행하기 위한 API입니다. AES-GCM 대칭 암호화를 사용하여 평문을 암호화하고, 암호화된 데이터를 다시 복호화하여 원본을 복원하는 기능을 제공합니다. 모든 결과는 console에 출력됩니다.
 
@@ -43,9 +50,3 @@ Web Crypto API를 활용한 AES-256-GCM 암호화 및 복호화 로직을 포함
 6. Base64로 변환된 IV를 `base64ToArrayBuffer` 함수로 다시 `ArrayBuffer`로 복원합니다.
 7. `crypto.subtle.decrypt()`를 호출하여 암호화된 데이터를 복호화합니다.
 8. `TextDecoder`를 사용하여 복호화된 결과를 원래 텍스트로 변환하여 console에 출력하며, 복호화가 올바르게 동작하는지 검증합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Web Crypto](https://www.youtube.com/watch?v=mWD5QrYYj6E&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=15)

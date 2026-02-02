@@ -1,5 +1,12 @@
 # WebRTC API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [WebRTC API 강의 바로가기](https://www.youtube.com/watch?v=mojydI8Enqw&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=25)
+
+---
+
 ## 개요
 WebRTC(Web Real-Time Communication) API는 브라우저 간 실시간 통신을 가능해주는 API입니다. 이 프로젝트는 WebRTC의 DataChannel을 활용하여 피어 간 실시간 채팅 기능을 구현합니다. WebSocket 서버를 시그널링(signaling) 서버로 사용하여 피어 간 연결을 세팅하고, 연결 완료 후 WebRTC DataChannel을 통해 메시지를 직접 교환합니다.
 
@@ -67,9 +74,3 @@ WebSocket 기반 시그널링 서버입니다. RTCPeerConnection 세팅에 필�
 8. 양측이 ICE candidate를 교환하여 WebRTC 연결을 완성합니다.
 9. DataChannel 연결이 완료되면, 메시지는 WebRTC DataChannel을 통해 피어 간에 직접 전송됩니다.
 10. 피어가 연결을 종료하면 서버가 "peer-disconnected"를 broadcast하여 다른 클라이언트에게 알립니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | WebRTC](https://www.youtube.com/watch?v=mojydI8Enqw&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=25)

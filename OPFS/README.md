@@ -1,5 +1,12 @@
 # OPFS (Origin Private File System) API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [OPFS (Origin Private File System) API 강의 바로가기](https://www.youtube.com/watch?v=vkrFKV3dZZ4&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=18)
+
+---
+
 ## 개요
 OPFS(Origin Private File System) API는 웹 앱에 사용자 인터랙션(파일 다이얼로그 등) 없이 프라이빗 파일 시스템 영역을 제공하는 API입니다. 각 origin(도메인)마다 독립적인 파일 저장소를 가지며, 파일의 생성, 읽기, 삭제, 목록 조회, 저장 공간 확인 등의 기능을 지원합니다. 이 프로젝트는 Vite를 사용하여 OPFS의 기본 기능을 시연합니다.
 
@@ -44,9 +51,3 @@ OPFS API를 활용한 파일 관리 로직을 포함합니다.
 6. 삭제 버튼을 클릭하면 `root.removeEntry()`로 지정된 파일을 삭제합니다.
 7. 저장 공간 확인 버튼을 클릭하면 `navigator.storage.estimate()`로 현재 사용량과 할당 용량을 GB 단위로 표시합니다.
 8. 모든 작업 결과는 페이지 내 출력 영역에 실시간으로 표시되며, 오류 발생 시 빨간색으로 표시됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | OPFS](https://www.youtube.com/watch?v=vkrFKV3dZZ4&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=18)

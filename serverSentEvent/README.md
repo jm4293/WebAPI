@@ -1,5 +1,12 @@
 # Server-Sent Events (SSE) API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Server-Sent Events (SSE) API 강의 바로가기](https://www.youtube.com/watch?v=li-TdsQInzI&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=1)
+
+---
+
 ## 개요
 Server-Sent Events(SSE)는 서버에서 클라이언트로 실시간 이벤트를 단방향으로 푸시하는 기술입니다. HTTP 연결을 유지하며 서버가 언제든지 클라이언트에게 데이터를 전송할 수 있습니다. 클라이언트에서는 `EventSource` API를 사용하여 SSE 연결을 생성하고, 기본 이벤트와 커스텀 이벤트를 수신할 수 있습니다. 이 프로젝트는 기본 이벤트와 커스텀 이벤트("update") 두 종류의 이벤트를 서버에서 주기적으로 전송하는 예제입니다.
 
@@ -55,9 +62,3 @@ Express.js를 사용한 SSE 서버입니다. PORT 3000에서 실행됩니다.
 5. 서버는 3초 간격으로 커스텀 이벤트 `"update"`를 전송하며, 클라이언트의 `"update"` 이벤트 리스너가 수신하여 커스텀 이벤트 리스트에 표시합니다.
 6. 연결 중 오류가 발생하면 `onerror`가 발생하여 빨간색으로 상태를 표시하고, `EventSource`가 자동으로 재연결을 시도합니다.
 7. 클라이언트가 페이지를 닫거나 연결을 종료하면, 서버 측에서 `req.on("close")`가 발생하여 두 interval을 정리합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Server Sent Events](https://www.youtube.com/watch?v=li-TdsQInzI&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=1)

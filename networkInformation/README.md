@@ -1,5 +1,12 @@
 # Network Information API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Network Information API 강의 바로가기](https://www.youtube.com/watch?v=V_jvnq1qeZk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=22)
+
+---
+
 ## 개요
 Network Information API는 현재 장치의 네트워크 연결 상태와 성능 정보를 제공하는 API입니다. 이 프로젝트는 Network Information API를 활용하여 연결 유형, 다운로드 속도, RTT(Round-Trip Time), 데이터 절약 모드 여부, 네트워크 타입 등 주요 네트워크 정보를 실시간으로 표시하며, 네트워크 상태가 변경될 때 자동으로 업데이트합니다. Chrome 전용 API입니다.
 
@@ -42,9 +49,3 @@ Network Information API를 활용하여 네트워크 정보를 조회하고 표�
 4. 읽은 값을 각각의 표시 영역에 렌더링합니다. `downlink` 값은 `toFixed(2)`로 소수점 2자리 표시됩니다.
 5. `navigator.connection.onchange` 이벤트가 등록되어, 네트워크 연결 상태가 변경되면 (예: Wi-Fi에서 모바일 데이터로 전환) `updateNetworkInfo()`가 다시 호출됩니다.
 6. 재호출 시 동일한 과정으로 최신 네트워크 정보를 조회하여 UI를 실시간 업데이트합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Network Information](https://www.youtube.com/watch?v=V_jvnq1qeZk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=22)

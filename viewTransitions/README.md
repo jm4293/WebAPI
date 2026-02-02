@@ -1,5 +1,12 @@
 # View Transitions API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [View Transitions API 강의 바로가기](https://www.youtube.com/watch?v=QNRV545L9Yk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=29)
+
+---
+
 ## 개요
 View Transitions API는 페이지 내 콘텐츠가 바뀌는 순간에 매끄러운 전환 효과를 제공합니다. `document.startViewTransition()`을 사용하여 콘텐츠 교체를 트리거하면, 이전 콘텐츠와 새 콘텐츠 사이에 자동으로 트랜지션 효과가 적용됩니다. 이를 통해 단일 페이지 앱(SPA)에서도 페이지 이동과 같은 자연스러운 화면 전환을 구현할 수 있습니다.
 
@@ -45,9 +52,3 @@ View Transitions API를 활용한 콘텐츠 전환 로직을 담당합니다.
 7. `viewTrans.finished` 프로미스가 이행되면 버튼이 다시 활성화됩니다.
 8. **지원되지 않는 경우**: `innerHTML`을 직접 교체하여 効과 없이 콘텐츠가 바뀝니다.
 9. 버튼을 계속 클릭하면 콘텐츠가 순환합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | View Transitions](https://www.youtube.com/watch?v=QNRV545L9Yk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=29)

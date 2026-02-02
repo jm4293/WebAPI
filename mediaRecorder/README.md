@@ -1,5 +1,12 @@
 # Media Recorder API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Media Recorder API 강의 바로가기](https://www.youtube.com/watch?v=1pcPPnPNxgI&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=5)
+
+---
+
 ## 개요
 Media Recorder API는 웹캠과 마이크로부터 받아온 미디어 스트림을 录제(녹화)하는 API입니다. 이 프로젝트는 Media Recorder API와 getUserMedia API를 결합하여 웹캠 영상과 오디오를 실시간으로 녹화하고, 완료된 영상을 다운로드할 수 있는 기능을 구현합니다.
 
@@ -47,9 +54,3 @@ video 영역과 버튼 등 전체 페이지의 레이아웃과 시각적 스타�
 6. **녹화 중지** 버튼을 클릭하면 `mediaRecorder.stop()`이 호출되어 녹화가 종료됩니다.
 7. `onstop` 이벤트에서 축적된 청크들로 `Blob`을 생성하고 `URL.createObjectURL()`로 다운로드 URL을 준비합니다.
 8. **다운로드** 버튼을 클릭하면 숨겨진 `<a>` 태그를 활용하여 녹화된 영상 파일이 다운로드됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Media Recorder](https://www.youtube.com/watch?v=1pcPPnPNxgI&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=5)

@@ -1,5 +1,12 @@
 # Web Storage API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Web Storage API 강의 바로가기](https://www.youtube.com/watch?v=zc_-b1hWunk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=16)
+
+---
+
 ## 개요
 Web Storage API는 브라우저에서 키-값 쌍의 데이터를 저장할 수 있는 메커니즘을 제공합니다. 이 프로젝트는 `localStorage`와 `sessionStorage` 두 가지 저장소를 활용하여 데이터를 저장, 조회, 삭제하는 예제를 구현합니다.
 
@@ -69,9 +76,3 @@ Vite 개발 서버를 위한 패키지 설정 파일입니다.
 5. localStorage에 저장된 데이터는 브라우저를 닫았다가 다시 열어도 유지됩니다.
 6. sessionStorage에 저장된 데이터는 탭을 닫으면 삭제됩니다.
 7. 브라우저 개발자 도구의 Application 탭에서 Storage 섹션을 통해 저장된 데이터를 확인할 수 있습니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Web Storage API](https://www.youtube.com/watch?v=zc_-b1hWunk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=16)

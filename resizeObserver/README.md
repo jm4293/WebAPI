@@ -1,5 +1,12 @@
 # ResizeObserver API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [ResizeObserver API 강의 바로가기](https://www.youtube.com/watch?v=uQ9D7DAUaeY&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=17)
+
+---
+
 ## 개요
 ResizeObserver API는 특정 DOM 요소의 크기가 변경될 때를 감지하여 콜백을 실행할 수 있는 기능을 제공합니다. `window`의 `resize` 이벤트와 달리 개별 요소의 크기 변화를 관찰할 수 있으며, 콘텐츠 영역과 보더 영역의 크기 정보를 모두 제공합니다.
 
@@ -44,9 +51,3 @@ ResizeObserver API의 핵심 로직을 포함하는 파일입니다. 주요 구�
 7. `entry.contentBoxSize`와 `entry.borderBoxSize`도 console에 출력됩니다.
 8. 페이지 로드 후 **5초가 경과하면** `resizeObserver.unobserve()`가 호출되어 관찰이 종료됩니다.
 9. 관찰이 종료된 후 버튼을 클릭해도 콜백이 더 이상 실행되지 않습니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Resize Observer](https://www.youtube.com/watch?v=uQ9D7DAUaeY&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=17)

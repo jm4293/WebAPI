@@ -1,5 +1,12 @@
 # WebSocket API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [WebSocket API 강의 바로가기](https://www.youtube.com/watch?v=ckaAhENDLLQ&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=34)
+
+---
+
 ## 개요
 WebSocket API는 클라이언트와 서버 사이에 Full-Duplex(양방향) 실시간 통신 채널을 제공하는 API입니다. 이 프로젝트는 WebSocket을 활용한 실시간 채팅 앱을 구현합니다. 클라이언트와 서버 간 전송되는 메시지는 gzip 압축을 적용하여 네트워크 전송 효율을 높입니다.
 
@@ -64,9 +71,3 @@ WebSocket 서버로, gzip 압축된 메시지를 처리하고 broadcast합니다
 8. 서버는 수신된 압축 메시지를 `zlib.unzip()`으로 해제하여 console에 로깅합니다.
 9. 서버는 압축된 원본 메시지를 그대로 모든 연결된 클라이언트에게 broadcast합니다.
 10. 각 클라이언트는 수신된 Blob을 `DecompressionStream("gzip")`으로 압축 해제하여 메시지를 복원하고 UI에 표시합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | WebSocket](https://www.youtube.com/watch?v=ckaAhENDLLQ&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=34)

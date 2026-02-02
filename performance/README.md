@@ -1,5 +1,12 @@
 # Performance API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Performance API 강의 바로가기](https://www.youtube.com/watch?v=QMiW0kU4bjQ&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=41)
+
+---
+
 ## 개요
 Performance API는 웹 페이지의 성능을 측정하고 모니터링할 수 있는 강력한 API입니다. 이 프로젝트에서는 Performance API를 활용하여 페이지 로드 시간, 리소스 로딩 성능, 사용자 정의 작업의 소요 시간, 페인트 타이밍, 긴 작업(long task) 감지 등을 측정하고 화면에 표시합니다. `performance.getEntriesByType()`, `performance.mark()`, `performance.measure()`, `PerformanceObserver` 등을 사용하여 다양한 성능 메트릭을 수집합니다.
 
@@ -78,9 +85,3 @@ Performance API를 사용하여 다양한 성능 메트릭을 측정하고 화�
 12. 페이지가 완전히 로드되면 `window.addEventListener("load", ...)` 콜백이 실행됩니다.
 13. 네비게이션 타이밍 정보를 가져와 전체 페이지 로드 시간을 계산하고 화면에 표시합니다.
 14. 모든 성능 측정 결과가 화면에 표시되어 사용자가 확인할 수 있습니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Performance API](https://www.youtube.com/watch?v=QMiW0kU4bjQ&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=41)

@@ -1,5 +1,12 @@
 # Streams API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Streams API 강의 바로가기](https://www.youtube.com/watch?v=Iza59E4dI80&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=37)
+
+---
+
 ## 개요
 Streams API는 데이터를 청크 단위로 실시간으로 읽거나 쓰는 기능을 제공합니다. 대량의 데이터를 한 번에 메모리에 로드하지 않고, 조각씩 처리할 수 있어 네트워크 응답의 실시간 처리나 대용량 파일의 스트리밍 저장에 적합합니다. 이 프로젝트는 서버로부터 스트리밍 응답을 받아 실시간으로 처리하거나, 파일로 스트리밍 저장하는 두 가지 기능을 보여드립니다.
 
@@ -63,9 +70,3 @@ Express.js를 사용한 스트리밍 서버입니다. PORT 3000에서 실행됩�
    - `showSaveFilePicker()`가 표시되어 사용자가 저장할 파일을 선택합니다.
    - 서버에서 전송되는 스트리밍 응답을 `TransformStream`을 거쳐 실시간으로 파일에 저장합니다.
    - 저장 진행 상황(수신된 바이트 수)이 `console`에 실시간으로 출력됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Stream](https://www.youtube.com/watch?v=Iza59E4dI80&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=37)

@@ -1,5 +1,12 @@
 # EyeDropper API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [EyeDropper API 강의 바로가기](https://www.youtube.com/watch?v=ol1vZ0xZynY&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=8)
+
+---
+
 ## 개요
 EyeDropper API는 사용자가 화면 위의 임의의 픽셀에서 색상을 선택할 수 있는 기능을 제공합니다. 클릭하면 스크린 전체에 대한 색상 샘플링 모드가 활성화되어, 사용자가 원하는 색상을 클릭하면 해당 픽셀의 sRGB 색상 값을 반환합니다. 주로 색상 조정 도구나 디자인 앱에서 활용됩니다.
 
@@ -44,9 +51,3 @@ EyeDropper API를 사용하여 색상 선택 기능을 구현하는 핵심 파�
 7. 사용자가 색상 선택을 취소하면 `catch` 블록에서 "선택 취소됨" 메시지가 표시됩니다.
 
 > **참고:** Chrome 95 이상에서만 지원됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Eye Dropper](https://www.youtube.com/watch?v=ol1vZ0xZynY&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=8)

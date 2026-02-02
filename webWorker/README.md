@@ -1,5 +1,12 @@
 # Web Worker API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Web Worker API 강의 바로가기](https://www.youtube.com/watch?v=PmKcFypgepk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=31)
+
+---
+
 ## 개요
 Web Worker API는 JavaScript를 백그라운드 스레드에서 실행하여 메인 스레드(UI)를 막히게 하지 않고 무거운 작업을 수행하는 API입니다. 이 프로젝트는 세 가지 시나리오로 Web Worker의 활용을 보여줍니다: 소수 계산, OffscreenCanvas를 이용한 캔버스 드로잤, ArrayBuffer 전달을 이용한 이미지 흑백 변환입니다.
 
@@ -104,9 +111,3 @@ OffscreenCanvas를 이용한 캔버스 드로잤의 메인 스크립트입니다
 3. 픽셀 데이터의 buffer가 transferable 객체로 워커에 전송됩니다.
 4. 워커에서 백그라운드로 각 픽셀의 R, G, B 평균값을 계산하여 흑백 변환을 수행합니다.
 5. 변환된 buffer가 메인 스레드에 반환되어 흑백 이미지가 캔버스에 표시됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Web Worker](https://www.youtube.com/watch?v=PmKcFypgepk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=31)

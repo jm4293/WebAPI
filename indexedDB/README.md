@@ -1,5 +1,12 @@
 # IndexedDB API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [IndexedDB API 강의 바로가기](https://www.youtube.com/watch?v=hbbse3wfIxY&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=33)
+
+---
+
 ## 개요
 IndexedDB는 브라우저에서 제공하는 클라이언트 측 구조화 데이터베이스 API입니다. 키-값 형태로 대량의 데이터를 로컬에 저장하고, 인덱스를 활용한 효율적인 검색과 CRUD 작업을 지원합니다. 이 프로젝트는 IndexedDB를 이용하여 사용자 데이터의 추가, 전체 조회, 정확 일치 검색, 부분 일치(Like) 검색, 검색 결과 삭제 기능을 구현합니다.
 
@@ -43,9 +50,3 @@ IndexedDB와의 연결 및 모든 데이터 작업 로직을 담당합니다. �
 6. 검색어를 입력한 후 **정확 일치 검색** 버튼을 클릭하면, `index("name").getAll()`을 사용하여 이름이 정확히 일치하는 사용자만 검색 결과로 표시됩니다.
 7. 검색어를 입력한 후 **Like 검색** 버튼을 클릭하면, `openCursor()`로 전체를 순회하며 `name.includes()`로 부분 일치하는 사용자를 검색 결과로 표시합니다.
 8. **검색 결과 삭제** 버튼을 클릭하면, `openCursor()`로 순회하며 검색어가 포함된 사용자를 `cursor.delete()`로 DB에서 삭제합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | IndexedDB](https://www.youtube.com/watch?v=hbbse3wfIxY&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=33)

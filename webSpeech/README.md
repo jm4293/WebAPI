@@ -1,5 +1,12 @@
 # Web Speech API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Web Speech API 강의 바로가기](https://www.youtube.com/watch?v=7oLwmY01DGA&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=6)
+
+---
+
 ## 개요
 Web Speech API는 웹 페이지에서 텍스트를 음성으로 출력하는 기능을 제공하는 API입니다. `SpeechSynthesis` 인터페이스를 사용하여 사용자가 입력한 텍스트를 선택된 음성으로 읽어드리는 텍스트-투-스피치(TTS) 기능을 구현합니다. 한국어 음성을 우선적으로 표시하며, 다양한 언어의 음성 중 원하는 음성을 선택할 수 있습니다.
 
@@ -42,9 +49,3 @@ Web Speech API의 `SpeechSynthesis`를 활용한 텍스트-투-스피치 로직�
 8. 음성 출력 시작 시 상태 영역에 "음성 출력 중..." 메시지가 표시됩니다.
 9. 음성 출력이 완료되면 `onend` 이벤트가 발생하여 완료 메시지가 표시됩니다.
 10. 정지 버튼을 클릭하면 `synth.cancel()`로 진행 중인 음성 출력을 즉시 중단합니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Web Speech](https://www.youtube.com/watch?v=7oLwmY01DGA&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=6)

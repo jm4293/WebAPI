@@ -1,5 +1,12 @@
 # Page Visibility API
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Page Visibility API 강의 바로가기](https://www.youtube.com/watch?v=liFhKHmIwq0&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=9)
+
+---
+
 ## 개요
 Page Visibility API는 현재 페이지가 사용자에게 보이는지(visible) 숨겨져 있는지(hidden) 여부를 감지할 수 있는 기능을 제공합니다. 사용자가 다른 탭으로 이동하거나 브라우저를 최소화하면 페이지가 숨겨져 있음을 감지하여, 불필요한 리소스 소비(예: 타이머)를 줄일 수 있습니다.
 
@@ -46,9 +53,3 @@ Page Visibility API와 타이머 로직을 포함하는 핵심 파일입니다. 
 6. 상태 영역의 색상이 **빨간색**으로 변경되고, `stopTimer()`가 호출되어 타이머가 정지됩니다.
 7. 사용자가 다시 해당 탭으로 돌아오면 `"visibilitychange"` 이벤트가 다시 발생합니다.
 8. `updatePageStatus()`가 호출되어 상태 영역이 **초록색**으로 복원되고, `startTimer()`가 호출되어 타이머가 다시 시작됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Page Visibility](https://www.youtube.com/watch?v=liFhKHmIwq0&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=9)

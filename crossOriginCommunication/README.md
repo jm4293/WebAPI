@@ -1,5 +1,12 @@
 # Cross-Origin Communication (postMessage)
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Cross-Origin Communication (postMessage) 강의 바로가기](https://www.youtube.com/watch?v=gcno0WeBDVk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=14)
+
+---
+
 ## 개요
 Cross-Origin Communication은 `postMessage` API를 사용하여 서로 다른 오리진(origin) 간에 안전하게 메시지를 주고받을 수 있는 방법입니다. 이 프로젝트에서는 부모 페이지(localhost:5173)와 iframe으로 로드된 자식 페이지(localhost:8080) 간에 양방향 메시지 전송을 구현합니다. `postMessage()`로 메시지를 전송하고, `message` 이벤트 리스너로 수신하며, 오리진 검증을 통해 보안을 강화합니다.
 
@@ -73,9 +80,3 @@ iframe, 버튼, 메시지 표시 영역의 크기, 색상, 간격과 전체 레�
 11. `event.origin`을 검증하여 `http://localhost:8080`에서 온 메시지인지 확인합니다.
 12. 검증을 통과한 메시지는 `receivedMessage` div에 표시됩니다.
 13. 오리진이 일치하지 않으면 메시지를 무시하고 처리하지 않습니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Cross-Origin Communication](https://www.youtube.com/watch?v=gcno0WeBDVk&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=14)

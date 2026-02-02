@@ -1,5 +1,12 @@
 # Screen Capture API (getDisplayMedia)
 
+## 📌 출처 및 강의 정보
+본 프로젝트의 모든 학습 자료와 강의 구성의 저작권은 **GIS Developer**에 있습니다.
+* **강의 채널:** [GIS Developer 유튜브 채널](https://www.youtube.com/@gisdeveloper)
+* **강의 영상:** [Screen Capture API (getDisplayMedia) 강의 바로가기](https://www.youtube.com/watch?v=6xXooNxWoAs&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=4)
+
+---
+
 ## 개요
 Screen Capture API는 사용자의 화면(모니터, 특정 창, 탭 등)을 캡처하여 실시간으로 스트리밍할 수 있는 기능을 제공합니다. `navigator.mediaDevices.getDisplayMedia()`를 사용하여 화면 캡처 스트림을 가져오고, 이를 `<video>` 요소에 연결하여 실시간 미리보기를 표시할 수 있습니다.
 
@@ -50,9 +57,3 @@ Screen Capture API의 핵심 로직을 포함하는 파일입니다. 주요 구�
 7. 사용자가 **버튼을 다시 클릭**하거나 브라우저의 "공유 중지"를 클릭하면 `stopCapture()`가 호출됩니다.
 8. 모든 트랙이 정지되고 `video.srcObject`가 `null`로 초기화되어 캡처가 종료됩니다.
 9. 사용자가 권한 다이얼로그에서 거부하면 `NotAllowedError`가 발생하고, 메시지 영역에 "권한 거부" 메시지가 표시됩니다.
-
----
-
-## 출처
-
-- [YouTube - GIS DEVELOPER | Screen Capture](https://www.youtube.com/watch?v=6xXooNxWoAs&list=PLe6NQuuFBu7EgOm0n1l-qzn1hDBG5AW8_&index=4)
