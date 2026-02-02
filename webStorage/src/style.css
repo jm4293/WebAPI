@@ -1,0 +1,27 @@
+#app {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 7px;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#output {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 50px;
+  background-color: #f9f9f9;
+}
